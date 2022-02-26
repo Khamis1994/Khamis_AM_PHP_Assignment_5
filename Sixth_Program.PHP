@@ -1,8 +1,6 @@
 <!DOCTYPE HTML>
 <head
 <title>PHP Assingment 5</title>
-
-
 <style>
     span {
         font-size:20px;
@@ -10,12 +8,10 @@
 </style>
 </head>
 <?php
-
 session_start();
 //SCRIPT NAME
 echo $_SERVER['SCRIPT_NAME']."<br>";
-
-//Multiplication Table
+//Calculater
 $First_Number=$_POST["First_Number"];
 $Second_Number=$_POST["Second_Number"];
 $Calculate=$_POST["Calculate"];
